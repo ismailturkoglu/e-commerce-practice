@@ -1,3 +1,4 @@
+/* UTILITIES */
 * {
   font-family: "Open Sans", sans-serif;
 }
@@ -9,4 +10,47 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* GENERAL STYLING */
+
+/************ index.html ************/
+
+/* top-bar */
+#top-bar button {
+}
+
+#top-bar button i {
+  color: #45cda7;
+}
+
+/* brand */
+#top-bar .brand img {
+  width: 2rem;
+  height: auto;
+}
+
+#top-bar .brand a:last-child {
+  color: #45cda7;
+  font-size: 1.2rem;
+  line-height: 1;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+/* profile */
+#top-bar .profile button {
+  padding: 0.5rem;
+  max-width: 6rem;
+}
+
+@media (max-width: 576px) {
+  #top-bar .brand-text,
+  #top-bar .profile span {
+    display: none;
+  }
 }
