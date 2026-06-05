@@ -3,6 +3,14 @@
   font-family: "Open Sans", sans-serif;
 }
 
+:root {
+  --logo: #45cda7;
+  --light-gray: #eaefef;
+  --gray: #bfc9d1;
+  --black: #25343f;
+  --orange: #ff9b51;
+}
+
 h1,
 h2,
 h3,
@@ -16,16 +24,18 @@ a {
   text-decoration: none;
 }
 
+.bg-logo,
+.btn-logo {
+  background-color: var(--logo);
+}
+
 /* GENERAL STYLING */
 
 /************ index.html ************/
 
 /* top-bar */
-#top-bar button {
-}
-
 #top-bar button i {
-  color: #45cda7;
+  color: var(--logo);
 }
 
 /* brand */
@@ -35,7 +45,7 @@ a {
 }
 
 #top-bar .brand a:last-child {
-  color: #45cda7;
+  color: var(--logo);
   font-size: 1.2rem;
   line-height: 1;
   font-weight: 600;
@@ -46,6 +56,19 @@ a {
 #top-bar .profile button {
   padding: 0.5rem;
   max-width: 6rem;
+}
+
+#top-bar .profile span {
+  color: var(--black);
+}
+
+/* search */
+#top-bar .search button i {
+  color: #fff;
+}
+
+#top-bar .search button:hover i {
+  color: var(--black);
 }
 
 @media (max-width: 576px) {
