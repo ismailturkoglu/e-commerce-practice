@@ -142,6 +142,15 @@ a {
   font-size: 0.6rem;
 }
 
+/* FOOTER */
+footer .social {
+  padding: 0.3rem;
+  border: 1px solid gray;
+  border-radius: 3px;
+  background-color: #fff;
+  color: var(--logo);
+}
+
 /* RESPONSİVE DESIGN */
 
 /* HEADER */
