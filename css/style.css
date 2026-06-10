@@ -146,7 +146,7 @@ a {
 footer .social {
   padding: 0.3rem;
   border: 1px solid gray;
-  border-radius: 3px;
+  border-radius: 0.4rem;
   background-color: #fff;
   color: var(--logo);
 }
