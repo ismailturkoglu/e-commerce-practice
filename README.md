@@ -3,7 +3,7 @@
 A simple **e-commerce frontend UI project** built with HTML, CSS, and Bootstrap.
 
 ## 🔗 Live Demo
-
+https://ismailturkoglu.github.io/e-commerce-practice/
 
 ## About the Project
 
