@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- Google Fonts (font family: "Open Sans","Montserrat")  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font-awesome 7.0.0 css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap 5.3.8 css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+        integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-light d-flex flex-column min-vh-100">
+
+    <!-- HEADER -->
+    <header>
+
+        <!-- top-bar -->
+        <section class="my-2 top-bar">
+            <div class="container">
+                <div class="row align-items-center gy-2 text-md-center py-2">
+                    <!-- brand -->
+                    <div class="col-5 col-lg-3 order-lg-0">
+                        <div class="brand">
+                            <div>
+                                <a class="d-flex align-items-center gap-2" href="index.html">
+                                    <img src="img/logo.png" alt="logo">
+                                    <span class="brand-text">Smile-Trade</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- profile -->
+                    <div class="col-7 col-lg-5 order-lg-2">
+                        <div class="profile d-flex justify-content-end">
+                            <a href="#" type="button" class="btn btn-light ps-0">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Profile</span>
+                            </a>
+                            <a href="#" type="button" class="btn btn-light">
+                                <i class="fa-solid fa-heart"></i>
+                                <span>List</span>
+                            </a>
+                            <a href="shopping-cart.html" type="button" class="btn btn-light">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                                <span>Basket </span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- search -->
+                    <div class="col-12 col-lg-4 order-lg-1">
+                        <form>
+                            <div class="input-group search rounded-2">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <button type="button" class="btn btn-logo">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <!-- MAIN -->
+    <main class="flex-grow-1">
+
+        <!-- shopping-cart -->
+        <section class="shopping-cart">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="basket-items-wrap">
+                            <div class="basket-items">
+                                <div class="card p-1 my-3">
+                                    <div class="row align-items-center">
+                                        <div class="col-3">
+                                            <div class="basket-img-wrap">
+                                                <img src="img/1-sm.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-5">
+                                            <div class="text-primary fw-bold">A*** Watch S*** L***</div>
+                                            <div class="mt-2">
+                                                <i class="fa-solid fa-trash-can"></i>
+                                                <small>Remove</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <select class="form-select">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-2">
+                                            <span>44.000 ₺</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card p-1 my-3">
+                                    <div class="row align-items-center">
+                                        <div class="col-3">
+                                            <div class="basket-img-wrap">
+                                                <img src="img/3-sm.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-5">
+                                            <div class="text-primary fw-bold">A*** Watch S*** L***</div>
+                                            <div class="mt-2">
+                                                <i class="fa-solid fa-trash-can"></i>
+                                                <small>Remove</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <select class="form-select">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-2">
+                                            <span>40.000 ₺</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card p-1 my-3">
+                                    <div class="row align-items-center">
+                                        <div class="col-3">
+                                            <div class="basket-img-wrap">
+                                                <img src="img/4-sm.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-5">
+                                            <div class="text-primary fw-bold">A*** Watch S*** L***</div>
+                                            <div class="mt-2">
+                                                <i class="fa-solid fa-trash-can"></i>
+                                                <small>Remove</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <select class="form-select">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-2">
+                                            <span>45.000 ₺</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cargo border rounded-2">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div>
+                                            <span>Cargo Fee</span>
+                                            <div>
+                                                <small class="text-warning">(Free for 10.000 ₺ and
+                                                    above)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 d-flex justify-content-end align-items-center">
+                                        <span>0 ₺</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card order-summary p-1 mt-3">
+                            <div class="card-body p-3">
+                                <h5 class="mb-3">Order Summary</h5>
+                                <div class="list-group">
+                                    <div class="list-group-item d-flex justify-content-center align-items-center">
+                                        <div class="me-auto">
+                                            <div>Order Sum</div>
+                                        </div>
+                                        <span>129.000 ₺</span>
+                                    </div>
+                                    <div class="list-group-item d-flex justify-content-center align-items-center">
+                                        <div class="me-auto">
+                                            <div>Tax (20%)</div>
+                                        </div>
+                                        <span>24.000 ₺</span>
+                                    </div>
+                                    <div class="list-group-item d-flex justify-content-center align-items-center">
+                                        <div class="me-auto">
+                                            <div>Cargo Fee</div>
+                                        </div>
+                                        <span>0 ₺</span>
+                                    </div>
+                                    <div class="list-group-item d-flex justify-content-center align-items-center">
+                                        <div class="me-auto">
+                                            <div>Total</div>
+                                        </div>
+                                        <span class="fs-5"><u>153.000 ₺</u></span>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <button type="button" class="btn btn-primary w-100">Proceed To Payment</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-logo py-2">
+        <div class="container">
+            <div class="row py-1 px-5 gy-2">
+                <div class="col-sm-7">
+                    <div class="input-group">
+                        <input type="text" placeholder="Enter your mail" class="form-control">
+                        <button class="btn btn-secondary">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <nav class="nav gap-2 justify-content-center justify-content-sm-end">
+                        <a href="#" class="btn btn-light social">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="btn btn-light social">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="btn btn-light social">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#" class="btn btn-light social">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </nav>
+                </div>
+                <div class="col-12 text-center text-sm-start">
+                    &copy 2026 All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+
+    <!-- Bootstrap 5.3.8 bundle -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"
+        integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
